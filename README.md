@@ -7,4 +7,7 @@
 - <a href="https://nodejs.org/en/">NodeJS</a>
 
 ## Installation
-
+- git clone git@github.com:cmpalce/blog-npm-es6.git
+- cd blog-npm-es6
+- npm install
+- ./node_modules/.bin/http-serve -p 4000 

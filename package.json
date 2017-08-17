@@ -1,0 +1,25 @@
+{
+  "name": "npm-es6-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 src/javascripts/app.js -o public/javascripts/main.bundle.js",
+    "browserify": "browserify ./src/javascripts/app.js -o ./public/javascripts/main.bundle.js -t [ babelify --presets [ es2015 ] ]"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "http-serve": "^1.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
